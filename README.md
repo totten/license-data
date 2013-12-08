@@ -14,7 +14,13 @@ The index is in a spreadsheet file, index.csv, with columns:
 The license may include some tokens which should be replaced when
 applied to a given project:
 
- * <TITLE>: The name of the work being licensed
- * <OWNER>: The person or entity which holds copyright on the
+ * TITLE: The name of the work being licensed
+ * OWNER: The person or entity which holds copyright on the
    code and which licenses the code.
- * <YEAR>: The year(s) of authorship
+ * YEAR: The year(s) of authorship
+
+## Helper classes
+
+If you're using PHP to process the data and don't want to sully the code
+with references to specific file paths or formats, then use the autoloaded
+classes \LicenseData\Repository and \LicenseData\License.
