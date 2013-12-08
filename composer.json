@@ -7,6 +7,11 @@
             "email": "totten@civicrm.org"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "LicenseData": "src/"
+         }
+    },
     "require": {
 
     }
