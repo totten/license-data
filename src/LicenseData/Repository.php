@@ -18,6 +18,8 @@ class Repository {
     }
 
     /**
+     * Reset any cached data
+     *
      * @void
      */
     public function flush() {
@@ -25,6 +27,16 @@ class Repository {
     }
 
     /**
+     * @return string path to the index file
+     */
+    public function getIndexFile() {
+      return $this->basedir . DIRECTORY_SEPARATOR . 'index.csv';
+    }
+
+    /**
+     * Read the index file
+     *
+     * @param string $file path to the index file
      * @void
      */
     protected function load($file) {
@@ -44,7 +56,7 @@ class Repository {
      */
     public function getAll() {
         if ($this->index === NULL) {
-            $this->load($this->basedir . DIRECTORY_SEPARATOR . 'index.csv');
+            $this->load($this->getIndexFile());
         }
         return $this->index;
     }
