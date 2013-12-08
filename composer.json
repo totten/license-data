@@ -1,0 +1,13 @@
+{
+    "name": "totten/open-source-licenses",
+    "description": "Dataset with open-source licenses",
+    "authors": [
+        {
+            "name": "Tim Otten",
+            "email": "totten@civicrm.org"
+        }
+    ],
+    "require": {
+
+    }
+}
