@@ -1,4 +1,9 @@
 <?php
+/**
+ * "license-data package"
+ * Copyright (c) 2013, Tim Otten
+ * License: BSD-2-Clause
+ */
 namespace LicenseData;
 
 class Repository {
