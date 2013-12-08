@@ -1,13 +1,13 @@
-AGPL-3.0,GNU Affero General Public License v3.0
-Apache-2.0,Apache License 2.0
-BSD-2-Clause,BSD 2-clause "Simplified" License
-BSD-3-Clause,BSD 3-clause "New" or "Revised" License
-GPL-2.0,GNU General Public License v2.0 only
-GPL-2.0+,GNU General Public License v2.0 or later
-GPL-3.0,GNU General Public License v3.0 only
-GPL-3.0+,GNU General Public License v3.0 or later
-LGPL-2.1,GNU Lesser General Public License v2.1 only
-LGPL-2.1+,GNU Lesser General Public License v2.1 or later
-LGPL-3.0,GNU Lesser General Public License v3.0 only
-LGPL-3.0+,GNU Lesser General Public License v3.0 or later
-MIT,MIT License
+AGPL-3.0,GNU Affero General Public License v3.0,licenses/AGPL-3.0.txt
+Apache-2.0,Apache License 2.0,licenses/Apache-2.0.txt
+BSD-2-Clause,BSD 2-clause "Simplified" License,licenses/BSD-2-Clause.txt
+BSD-3-Clause,BSD 3-clause "New" or "Revised" License,licenses/BSD-3-Clause.txt
+GPL-2.0,GNU General Public License v2.0 only,licenses/GPL-2.0.txt
+GPL-2.0+,GNU General Public License v2.0 or later,licenses/GPL-2.0+.txt
+GPL-3.0,GNU General Public License v3.0 only,licenses/GPL-3.0.txt
+GPL-3.0+,GNU General Public License v3.0 or later,licenses/GPL-3.0+.txt
+LGPL-2.1,GNU Lesser General Public License v2.1 only,licenses/LGPL-2.1.txt
+LGPL-2.1+,GNU Lesser General Public License v2.1 or later,licenses/LGPL-2.1+.txt
+LGPL-3.0,GNU Lesser General Public License v3.0 only,licenses/LGPL-3.0.txt
+LGPL-3.0+,GNU Lesser General Public License v3.0 or later,licenses/LGPL-3.0+.txt
+MIT,MIT License,licenses/MIT.txt
