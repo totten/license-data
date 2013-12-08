@@ -1,3 +1,8 @@
+<TITLE>
+Copyright (C) <YEAR>, <OWNER>
+Licensed under Apache License 2.0 (below).
+
+-------------------------------------------------------------------------------
 
                                  Apache License
                            Version 2.0, January 2004

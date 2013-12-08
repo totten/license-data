@@ -1,3 +1,9 @@
+<TITLE>
+Copyright (C) <YEAR>, <OWNER>
+Licensed under GNU General Public License v2.0 only (below).
+
+-------------------------------------------------------------------------------
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
