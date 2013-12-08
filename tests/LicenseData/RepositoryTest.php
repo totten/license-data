@@ -7,6 +7,20 @@
 namespace LicenseData;
 
 class RepositoryTest extends \PHPUnit_Framework_TestCase {
+    var $oldCwd;
+
+    function setUp() {
+      parent::setUp();
+
+      // Don't assume CWD==license-data dir
+      $this->oldCwd = getcwd();
+      chdir(dirname(getcwd())); // don't care where, just somewhere else
+    }
+
+    function tearDown() {
+        chdir($this->oldCwd);
+    }
+
     function testValidReferences() {
         $licenses = new \LicenseData\Repository();
         $all = $licenses->getAll();
