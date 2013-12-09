@@ -23,4 +23,9 @@ applied to a given project:
 
 If you're using PHP to process the data and don't want to sully the code
 with references to specific file paths or formats, then use the autoloaded
-classes \LicenseData\Repository and \LicenseData\License.
+classes \LicenseData\Repository and \LicenseData\License. For example:
+
+```php
+$licenses = new \LicenseData\Repository();
+echo $licenses->get('LGPL-2.1+')->getText();
+```
