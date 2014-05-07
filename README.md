@@ -7,7 +7,7 @@ The index is in a spreadsheet file, index.csv, with columns:
 
  * Short name
  * Title
- * Path to the license's text file
+ * Relative path of the license's text file
 
 ## Tokens
 
