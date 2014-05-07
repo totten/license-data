@@ -1,5 +1,8 @@
 This project includes the text of common open-source licenses as well as an
-index with titles and identifiers.
+index with titles and identifiers. It's intended to supplement developer
+tools (like "civix") -- when "civix" (et al) initializes a new project, it
+prompts the developer to choose a license and loads the appropriate license
+text (from license-data).
 
 ## index.csv
 
