@@ -48,7 +48,7 @@ class Repository {
         $this->index = array();
         if ($fh = fopen($file, 'r')) {
             while ($row = fgetcsv($fh)) {
-                $this->index[$row[0]] = new License($row[0], $row[1], $this->basedir . DIRECTORY_SEPARATOR . $row[2]);
+                $this->index[$row[0]] = new License($row[0], $row[1], $this->basedir . DIRECTORY_SEPARATOR . $row[2], $row[3]);
             }
             fclose($fh);
         } else {

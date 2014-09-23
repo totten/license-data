@@ -1,12 +1,12 @@
-AGPL-3.0,GNU Affero General Public License v3.0,licenses/AGPL-3.0.txt
-Apache-2.0,Apache License 2.0,licenses/Apache-2.0.txt
-BSD-2-Clause,BSD 2-clause "Simplified" License,licenses/BSD-2-Clause.txt
-GPL-2.0,GNU General Public License v2.0 only,licenses/GPL-2.0.txt
-GPL-2.0+,GNU General Public License v2.0 or later,licenses/GPL-2.0+.txt
-GPL-3.0,GNU General Public License v3.0 only,licenses/GPL-3.0.txt
-GPL-3.0+,GNU General Public License v3.0 or later,licenses/GPL-3.0+.txt
-LGPL-2.1,GNU Lesser General Public License v2.1 only,licenses/LGPL-2.1.txt
-LGPL-2.1+,GNU Lesser General Public License v2.1 or later,licenses/LGPL-2.1+.txt
-LGPL-3.0,GNU Lesser General Public License v3.0 only,licenses/LGPL-3.0.txt
-LGPL-3.0+,GNU Lesser General Public License v3.0 or later,licenses/LGPL-3.0+.txt
-MIT,MIT License,licenses/MIT.txt
+AGPL-3.0,GNU Affero General Public License v3.0,licenses/AGPL-3.0.txt,http://www.gnu.org/licenses/agpl-3.0.html
+Apache-2.0,Apache License 2.0,licenses/Apache-2.0.txt,http://www.apache.org/licenses/LICENSE-2.0.html
+BSD-2-Clause,BSD 2-clause "Simplified" License,licenses/BSD-2-Clause.txt,http://opensource.org/licenses/BSD-2-Clause
+GPL-2.0,GNU General Public License v2.0 only,licenses/GPL-2.0.txt,http://www.gnu.org/licenses/gpl-2.0.html
+GPL-2.0+,GNU General Public License v2.0 or later,licenses/GPL-2.0+.txt,http://www.gnu.org/licenses/gpl-2.0.html
+GPL-3.0,GNU General Public License v3.0 only,licenses/GPL-3.0.txt,http://www.gnu.org/licenses/gpl-3.0.html
+GPL-3.0+,GNU General Public License v3.0 or later,licenses/GPL-3.0+.txt,http://www.gnu.org/licenses/gpl-3.0.html
+LGPL-2.1,GNU Lesser General Public License v2.1 only,licenses/LGPL-2.1.txt,http://www.gnu.org/licenses/lgpl-2.1.html
+LGPL-2.1+,GNU Lesser General Public License v2.1 or later,licenses/LGPL-2.1+.txt,http://www.gnu.org/licenses/lgpl-2.1.html
+LGPL-3.0,GNU Lesser General Public License v3.0 only,licenses/LGPL-3.0.txt,http://www.gnu.org/licenses/lgpl-3.0.html
+LGPL-3.0+,GNU Lesser General Public License v3.0 or later,licenses/LGPL-3.0+.txt,http://www.gnu.org/licenses/lgpl-3.0.html
+MIT,MIT License,licenses/MIT.txt,http://opensource.org/licenses/MIT

@@ -30,12 +30,14 @@ class RepositoryTest extends \PHPUnit_Framework_TestCase {
             $this->assertTrue(self::notEmpty($license->getName()));
             $this->assertTrue(self::notEmpty($license->getTitle()));
             $this->assertTrue(self::notEmpty($license->getText()));
+            $this->assertTrue(self::notEmpty($license->getUrl()));
         }
     }
 
     function testByName() {
         $licenses = new \LicenseData\Repository();
         $this->assertEquals('GNU Lesser General Public License v2.1 or later', $licenses->get('LGPL-2.1+')->getTitle());
+        $this->assertEquals('http://www.gnu.org/licenses/lgpl-2.1.html', $licenses->get('LGPL-2.1+')->getUrl());
     }
 
     function notEmpty($x) {

@@ -10,11 +10,13 @@ class License {
     private $name;
     private $title;
     private $txtPath;
+    private $url;
 
-    public function __construct($name, $title, $txtPath) {
+    public function __construct($name, $title, $txtPath, $url = NULL) {
         $this->name = $name;
         $this->title = $title;
         $this->txtPath = $txtPath;
+        $this->url = $url;
     }
 
     /**
@@ -32,9 +34,16 @@ class License {
     }
 
     /**
-     * @retur string the full license text
+     * @return string the full license text
      */
     function getText() {
         return file_get_contents($this->txtPath);
+    }
+
+    /**
+     * @return string public web URL for the license
+     */
+    function getUrl() {
+        return $this->url;
     }
 }
