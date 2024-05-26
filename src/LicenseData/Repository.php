@@ -45,6 +45,7 @@ class Repository {
      *
      * @param string $file path to the index file
      * @void
+     * @throws \Exception
      */
     protected function load($file) {
         $this->index = array();
@@ -60,6 +61,7 @@ class Repository {
 
     /**
      * @return array of License
+     * @throws \Exception
      */
     public function getAll() {
         if ($this->index === NULL) {
@@ -71,6 +73,7 @@ class Repository {
     /**
      * @param string $name a code name (eg "GPL-2.0+")
      * @return License|NULL
+     * @throws \Exception
      */
     public function get($name) {
         $all = $this->getAll();
