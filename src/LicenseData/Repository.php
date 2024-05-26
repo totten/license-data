@@ -6,6 +6,8 @@
  */
 namespace LicenseData;
 
+use Exception;
+
 class Repository {
     private $basedir;
 
