@@ -22,28 +22,28 @@ class License {
     /**
      * @return string a code name (eg "GPL-2.0+")
      */
-    function getName() {
+    public function getName() {
         return $this->name;
     }
 
     /**
      * @return string descriptive title
      */
-    function getTitle() {
+    public function getTitle() {
         return $this->title;
     }
 
     /**
      * @return string the full license text
      */
-    function getText() {
+    public function getText() {
         return file_get_contents($this->txtPath);
     }
 
     /**
      * @return string public web URL for the license
      */
-    function getUrl() {
+    public function getUrl() {
         return $this->url;
     }
 }
