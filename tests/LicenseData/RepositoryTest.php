@@ -6,10 +6,10 @@
  */
 namespace LicenseData;
 
-class RepositoryTest extends \PHPUnit_Framework_TestCase {
+class RepositoryTest extends \PHPUnit\Framework\TestCase {
     var $oldCwd;
 
-    function setUp() {
+    function setUp(): void {
       parent::setUp();
 
       // Don't assume CWD==license-data dir
@@ -17,7 +17,7 @@ class RepositoryTest extends \PHPUnit_Framework_TestCase {
       chdir(dirname(getcwd())); // don't care where, just somewhere else
     }
 
-    function tearDown() {
+    function tearDown(): void {
         chdir($this->oldCwd);
     }
 
