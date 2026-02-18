@@ -50,7 +50,7 @@ class Repository {
     protected function load($file) {
         $this->index = array();
         if ($fh = fopen($file, 'r')) {
-            while ($row = fgetcsv($fh)) {
+            while ($row = fgetcsv($fh, null, ',', '"', '')) {
                 $this->index[$row[0]] = new License($row[0], $row[1], $this->basedir . DIRECTORY_SEPARATOR . $row[2], $row[3]);
             }
             fclose($fh);
